@@ -76,7 +76,7 @@ def by_interest(dataset):
 
     return by_interest
 
-#tallying the number of interested users per topic
+### tallying the number of interested users per topic ###
 count = 0
 maxnum = 0
 tally_keys = []
@@ -94,12 +94,12 @@ for item in tally:
     count = len(tally[item])
     print(item +": "+ str(count))
 
-#showing the users' names interested in each topic
+
 
 print("\n")
 print ("Topic of interest : User Names\n")
 
-#I could use regular expressions to extract the names but this is easier:
+#A function to print out usernames without the list syntax
 def makeString(alist):
     output = ""
     output = str(alist)
@@ -108,7 +108,7 @@ def makeString(alist):
     output = output.replace("'","")
     return output
 
-
+#output user names per topic of interest:
 names = ""
 for item in tally:
     userlist = []
