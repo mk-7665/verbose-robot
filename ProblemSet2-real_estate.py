@@ -8,7 +8,7 @@
 
 # Step 1: create your lists of prices: 1 list for 1 BD, 1 list for 2 BD 
 # hint 1: see lists in Python
-# your code goes here:
+# I made up those numbers, but I'm sure SF is more expensive!
 x = [1755,1900,1850,2000,2500,2700]
 y = [3000,2750,2900,2100,3300,3500]
 
