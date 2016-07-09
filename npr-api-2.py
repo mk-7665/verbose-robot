@@ -7,7 +7,7 @@ from json import loads, dumps
 
 def url_sender(x,y):
         url = 'http://api.npr.org/query?apiKey=' 
-        key = 'MDIzNjM3NTE1MDE0NTk5MjgwODBiODRhNw000'
+        key = '[your-api-key-here]'
         url = url + key
         url += '&numResults='+ x + '&format=json&id='+ y + '&requiredAssets=image,text,audio'
         return url
