@@ -1,8 +1,6 @@
 from collections import defaultdict
 
-# Congratulations! 
-# You've just been hired to lead the data science efforts at DataSciencester, the social network for data scientists.
-# This is what the network looks like (toy data set 1):
+# This was a data science project I worked on from PyLadies Meetup Group
 
 users = [
   {"id":0, "name":"Hero"},
