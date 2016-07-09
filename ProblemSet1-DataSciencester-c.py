@@ -2,6 +2,7 @@ from collections import defaultdict
 
 # This was a data science project I worked on from PyLadies Meetup Group
 
+# Data set 1
 users = [
   {"id":0, "name":"Hero"},
   {"id":1, "name":"Dunn"},
@@ -15,11 +16,7 @@ users = [
   {"id":9, "name":"Klein"}
 ]
 
-# As a data scientist, you know that you might enjoy meeting users with similar interests.
-# Your task is to find out which users have the same interests. 
-# Question: what interests do users share (and vice versa)?
-# Here's a list of iser ids and their respective interests (toy data set 2):
-
+# Data set 2
 interests = [
   (0, "Hadoop"), (0, "Big Data"), (0, "Spark"),
   (1, "Python"), (1, "MongoDB"), (1, "scikit-learn"),
